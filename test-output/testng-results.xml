@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<br></br> Step :: Click On LogIn.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter Registered Email Address.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter Password.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click On Login]]>
+    </line>
+    <line>
+      <![CDATA[ successfully Login]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click On Compose button .]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter mail Id .]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter subject.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step ::Verify message has been sent sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92957" started-at="2016-04-25T10:05:38Z" finished-at="2016-04-25T10:07:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="92957" started-at="2016-04-25T10:05:38Z" finished-at="2016-04-25T10:07:11Z">
+      <class name="GmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GmailTest@19b4d0f]" name="setUp" is-config="true" duration-ms="33505" started-at="2016-04-25T15:35:38Z" finished-at="2016-04-25T15:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn()[pri:1, instance:GmailTest@19b4d0f]" name="LogIn" duration-ms="13210" started-at="2016-04-25T15:36:12Z" finished-at="2016-04-25T15:36:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br> Step :: Click On LogIn.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter Registered Email Address.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter Password.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click On Login]]>
+            </line>
+            <line>
+              <![CDATA[ successfully Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="SendMail()[pri:2, instance:GmailTest@19b4d0f]" name="SendMail" duration-ms="43693" started-at="2016-04-25T15:36:25Z" finished-at="2016-04-25T15:37:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br> Step :: Click On Compose button .]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter mail Id .]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter subject.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step ::Verify message has been sent sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SendMail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GmailTest@19b4d0f]" name="tearDown" is-config="true" duration-ms="2429" started-at="2016-04-25T15:37:09Z" finished-at="2016-04-25T15:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
